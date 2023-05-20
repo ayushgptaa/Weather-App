@@ -10,6 +10,10 @@
     margin: auto;
 }
 
+/* .body span:first-child {
+    font-style: bold;
+} */
+
 .top {
     display: flex;
     padding-top: 31px;
@@ -55,6 +59,7 @@
 .city {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .second {

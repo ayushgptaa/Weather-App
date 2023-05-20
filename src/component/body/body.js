@@ -2,6 +2,7 @@ import React from "react";
 import "./body.css";
 //Images
 import Wind from "../../images/wind.svg";
+import Wind2 from "../../images/wind2.svg";
 import Sun from "../../images/sunIcon.svg";
 import Locate from "../../images/locateIcon.svg";
 import Heart from "../../images/blueHeart.svg";
@@ -28,9 +29,9 @@ export default function Body() {
             </div>
             <div className="second">
                 <div className="city">
-                    <span>Air Quality in</span>
-                    <span>New Delhi, India</span>
-                    <span>Nearest monitor is 0.8 km </span>
+                    <span style={{ fontWeight: "600", fontSize: "16.0994px", lineHeight: "23px" }}><img src={Wind2} alt="wind" style={{ color: "#667580", marginRight: "5px" }}></img>Air Quality in</span>
+                    <span style={{ fontWeight: "700", fontSize: "19.677px", lineHeight: "27px" }}>New Delhi, India</span>
+                    <span style={{ fontWeight: "600", fontSize: "12px", lineHeight: "20px", color: "#677580" }}>Nearest monitor is 0.8 km </span>
                 </div>
                 <div>
                     <span><img src={Heart} alt="heart"></img>20.6k</span>
