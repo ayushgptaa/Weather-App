@@ -9,6 +9,14 @@ import Share from "../../images/shareIcon.svg";
 import Temp from "../../images/liveTemp.svg";
 import Boy from "../../images/goodBoy.svg";
 
+const arr1 = [
+    { id: 1, status: "Good" },
+    { id: 2, status: "Moderate" },
+    { id: 3, status: "Poor" },
+    { id: 4, status: "Unhealthy" },
+    { id: 5, status: "Severe" },
+    { id: 6, status: "Hazardous" },
+]
 export default function Body() {
     return (
         <div className="body">
@@ -43,7 +51,6 @@ export default function Body() {
                         fear and enjoy the day</div>
                     <img src={Boy} alt="boy"></img>
                 </div>
-
                 <div>
                     <div>
                         <img src={Sun} alt="Sun"></img>
@@ -61,9 +68,9 @@ export default function Body() {
                     </span>
                 </div>
             </div>
-
-
-
+            {arr1.map((value) => (
+                <div className="indicator" key={value.id}></div>
+            ))}
         </div>
     )
 }

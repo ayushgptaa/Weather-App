@@ -5,6 +5,7 @@
     height: 468px;
     margin-left: 205px;
     margin-right: 205px;
+    padding-top: 39px;
 }
 
 .body span:first-child {
@@ -12,8 +13,15 @@
     margin-left: 56px;
 }
 
+.text1 {
+    font-weight: bold;
+}
+
 .container {
+    margin-top: 32px;
     margin-left: 56px;
+    margin-bottom: 46px;
+    margin-right: 52px;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -59,10 +67,9 @@
 
 .week-section {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    margin-top: 27px;
+    gap: 70px;
     justify-content: center;
-    align-items: center;
 }
 
 .week span:first-child {

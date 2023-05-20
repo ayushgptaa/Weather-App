@@ -28,7 +28,8 @@ export default function Pollutant() {
     return (
         <>
             <div className="body">
-                <span>Major Pollutants <span>in New Delhi</span> </span>
+                <span className="text1">Major Pollutants </span>
+                <span>in New Delhi</span>
                 <div className="container">
                     {arr1.map((value) => (
                         <div className="tiles" key={value.id}>
@@ -46,7 +47,7 @@ export default function Pollutant() {
                         {
                             arr2.map((value) => (
                                 <div key={value.id}>
-                                    <span>{value.day}</span>
+                                    {value.day}
                                     <div className="week">
                                         <div><img src={Sun} alt="Sun"></img>35c/5c</div>
                                         <span>Mostly sunny</span>
