@@ -33,8 +33,8 @@ export default function Body() {
                     <span style={{ fontWeight: "700", fontSize: "19.677px", lineHeight: "27px" }}>New Delhi, India</span>
                     <span style={{ fontWeight: "600", fontSize: "12px", lineHeight: "20px", color: "#677580" }}>Nearest monitor is 0.8 km </span>
                 </div>
-                <div>
-                    <span><img src={Heart} alt="heart"></img>20.6k</span>
+                <div className="share">
+                    <span style={{ alignItems: "center", display: "flex" }}><img src={Heart} alt="heart"></img>20.6k</span>
                     <span><img src={Share} alt="shareIcon"></img></span>
 
                 </div>
@@ -44,34 +44,44 @@ export default function Body() {
                 <div className="third-section-1">
                     <img src={Temp} alt="liveTemp"></img>
                     <div className="live">
-                        <span>Live AQI</span>
-                        <span>Good</span>
-                        <span>Last Update: 2 hr ago</span>
+                        <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                            <div className="circle1"></div>
+                            <span style={{ fontSize: "12px", fontWeight: "700", lineHeight: "16px" }}>Live AQI</span>
+                        </div>
+                        <span style={{ fontWeight: "800", fontSize: "22px", lineHeight: "30px", color: "#3DBE34" }}>Good</span>
+                        <span style={{ fontWeight: "500", fontSize: "16px", lineHeight: "30px" }}>Last Update: 2 hr ago</span>
                     </div>
-                    <div>You can go outside without
+                    <div style={{ fontWeight: "600", fontSize: "12px", lineHeight: "20px", color: "#677580", display: "flex", alignItems: "center" }}>You can go outside without
                         fear and enjoy the day</div>
                     <img src={Boy} alt="boy"></img>
                 </div>
                 <div>
+                    <div style={{ display: "flex" }}>
+                        <img style={{ width: "31.97px", height: "31px" }} src={Sun} alt="Sun"></img>
+                        <span>35 C
+                            <div>Most sunny</div>
+                        </span>
+                        <span>Min<span>10oC</span></span>
+                        <span>Max<span>40oC</span></span>
+                    </div>
                     <div>
-                        <img src={Sun} alt="Sun"></img>
-                        <div>35 C
-                            <span>Most sunny</span>
-                        </div>
-                        <div>Min<span>10oC</span></div>
-                        <div>Max<span>40oC</span></div>
+                        <span>
+                            <span>11 km/hr</span>
+                            <span>70%</span>
+                            <span>70%</span>
+                        </span>
+
+
                     </div>
 
-                    <span>
-                        <span>11 km/hr</span>
-                        <span>70%</span>
-                        <span>70%</span>
-                    </span>
+
                 </div>
             </div>
-            {arr1.map((value) => (
-                <div className="indicator" key={value.id}></div>
-            ))}
-        </div>
+            {
+                arr1.map((value) => (
+                    <div className="indicator" key={value.id}></div>
+                ))
+            }
+        </div >
     )
 }

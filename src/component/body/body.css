@@ -62,12 +62,27 @@
     align-items: flex-start;
 }
 
+.share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
 .second {
     display: flex;
     margin-top: 37px;
     margin: 40px;
-    gap: 680px
+    gap: 716px
         /* margin-left: 40px; */
+}
+
+.circle1 {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #E75835;
 }
 
 .third-section {
@@ -100,4 +115,8 @@
 .live {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px;
+    width: 220px;
 }
