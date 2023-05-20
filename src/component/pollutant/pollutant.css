@@ -1,0 +1,73 @@
+.body {
+    background: #FFFFFF;
+    box-shadow: 2px 6px 41px rgba(0, 0, 0, 0.05);
+    border-radius: 13px;
+    height: 468px;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+.body span:first-child {
+    font-style: bold;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFD;
+    border: 0.5px solid #A3A3C8;
+    border-radius: 8.93594px;
+    width: 262px;
+    height: 57px;
+    margin-bottom: 19px;
+    margin-right: 68px;
+}
+
+.rectangle {
+    width: 3.57px;
+    height: 24.13px;
+    background: #3DBE34;
+    border-radius: 8.93594px;
+}
+
+/* Forecast */
+.forecast {
+    display: flex;
+    flex-direction: column;
+}
+
+.forecast span:first-child {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+}
+
+.week-section {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.week span:first-child {
+    width: 42px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 11.1957px;
+    line-height: 15px;
+}

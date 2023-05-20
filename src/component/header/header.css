@@ -1,0 +1,70 @@
+.header {
+    height: 62px;
+    margin: 19.61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.07);
+}
+
+.logo {
+    position: relative;
+    margin-right: 104px;
+    width: 49.49px;
+    height: 22.78px;
+}
+
+.nav-elements {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74.12px;
+    height: 18px;
+}
+
+.nav-elements span:nth-child(4) {
+    display: flex;
+    align-items: center;
+}
+
+.nav-elements span:nth-child(5) {
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    position: relative;
+    margin-left: 200px;
+    display: flex;
+    gap: 7.25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginButton {
+    position: relative;
+    width: 104px;
+    height: 40px;
+    background: #4BA9FF;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.seperate {
+    display: flex;
+    width: 29px;
+    height: 2px;
+    background: linear-gradient(270deg, rgba(190, 190, 190, 0.18) 0.72%, #635E5E 45.95%, rgba(190, 190, 190, 0.18) 98.74%);
+    opacity: 0.17;
+    transform: rotate(-90deg);
+}
