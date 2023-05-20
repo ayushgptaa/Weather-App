@@ -4,6 +4,7 @@ import "./pollutant.css";
 import PM2 from "../../images/pm2.svg";
 import Sun from "../../images/sunIcon.svg";
 import Droplet from "../../images/droplets.svg";
+// import Exclamation from "../../images/exclamation.svg";
 
 const arr1 = [
     { id: 1 },

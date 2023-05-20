@@ -9,14 +9,17 @@
 
 .body span:first-child {
     font-style: bold;
+    margin-left: 56px;
 }
 
 .container {
+    margin-left: 56px;
     align-items: center;
-    justify-content: center;
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 68px;
 }
 
 .tiles {
@@ -28,8 +31,6 @@
     border-radius: 8.93594px;
     width: 262px;
     height: 57px;
-    margin-bottom: 19px;
-    margin-right: 68px;
 }
 
 .rectangle {
