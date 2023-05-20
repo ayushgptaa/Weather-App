@@ -1,13 +1,14 @@
 .body {
+    position: relative;
     width: 1071px;
     height: 412px;
-    left: 185px;
-    top: 818px;
 
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 2px 6px 41px rgba(0, 0, 0, 0.05);
     border-radius: 13px;
     margin: auto;
+    top: -70px;
+    z-index: 2;
 }
 
 /* .body span:first-child {
@@ -21,7 +22,7 @@
 }
 
 .weatherButton {
-    background: #4BA9FF;
+    background: #4ba9ff;
     border-radius: 6px;
     width: 118px;
     height: 34px;
@@ -34,7 +35,7 @@
     font-size: 15.507px;
     line-height: 21px;
     gap: 5px;
-    color: #FFFFFF
+    color: #ffffff;
 }
 
 .weather {
@@ -46,7 +47,7 @@
 
 .locate {
     display: flex;
-    border: 1px solid #4BA9FF;
+    border: 1px solid #4ba9ff;
     border-radius: 5.37px;
     width: 111px;
     height: 34px;
@@ -56,7 +57,7 @@
     margin-left: 650px;
 }
 
-.city {
+.cityInfo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -74,42 +75,39 @@
     display: flex;
     margin-top: 37px;
     margin: 40px;
-    gap: 716px
-        /* margin-left: 40px; */
+    gap: 716px;
+    /* margin-left: 40px; */
 }
 
 .circle1 {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: #E75835;
+    background-color: #e75835;
 }
 
 .third-section {
     display: flex;
     flex-direction: row;
     margin: 40px;
-    gap: 58px
+    gap: 58px;
 }
 
 .third-section-1 {
     display: flex;
     width: 593px;
     height: 115px;
-    background: #FAFAFD;
+    background: #fafafd;
     border-radius: 8px;
     margin-left: 10px;
     margin-top: 25px;
 }
 
 .indicator {
-    display: flex;
-    flex-direction: row;
     width: 83px;
     height: 4px;
-    background: #3DBE34;
     border-radius: 4.01827px 0px 0px 4.01827px;
-    margin-left: 76px;
+    margin-top: 2px;
 }
 
 .live {
